@@ -1,0 +1,25 @@
+body {
+  padding: 0 2em;
+}
+
+h1 {
+  font-weight: normal;
+  letter-spacing: -1px;
+  color: #34495e;
+}
+
+.rwd-table {
+  background: #34495e;
+  color: #fff;
+  border-radius: 0.4em;
+  overflow: hidden;
+  border-collapse: collapse;
+}
+.rwd-table tr {
+  border-color: #46637f;
+}
+.rwd-table th,
+.rwd-table td {
+  padding: 5px;
+  border: 1px solid black;
+}
