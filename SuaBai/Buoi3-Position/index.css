@@ -1,0 +1,92 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    height: 200vh;
+}
+
+.a{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1; 
+}
+
+/* z-index mặc định là 0, đối với các phần tử có position là fixed, absolute, sticky -> phần tử nào có z-index cao hơn sẽ nằm đè lên phần tử còn lại */
+/* Absolte chỉ chiếm 1 khoảng không gian bằng với độ dài của phần tử đó và có thể nằm đè lên phần tử khác */
+/* Relative sẽ chiếm hết 1 khoảng không gian theo chiều dài màn hình và không thể nằm đè lên phần tử khác */
+
+.b{
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+
+
+.c{
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+    bottom: 0;  
+    left: 0;
+    position: absolute;
+}
+
+.d{
+    background-color: purple;
+    width: 200px;
+    height: 200px;
+    right: 0;
+bottom: 0;
+position: absolute;
+}
+
+.e{
+    width: 80px;
+    height: 80px;
+    position: fixed;
+    background-color: aqua;
+    top: 25.5%;
+    right: 14%;
+}
+
+.f{
+    width: 80px;
+    height: 80px;
+    position: fixed;
+    background-color: pink;
+    top: 20.5%;
+    left: 10%;
+}
+.g{
+    width: 80px;
+    height: 80px;
+    position: fixed;
+    background-color: red;
+    left: 14%;
+    bottom: 25.4%;
+}
+.h{
+    width: 80px;
+    height: 80px;
+    position: fixed;
+    background-color: rgb(55, 28, 144);
+    bottom: 25.4%;
+    right: 14%;
+}
+.i{
+    width: 80px;
+    height: 80px;
+    position: fixed;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
