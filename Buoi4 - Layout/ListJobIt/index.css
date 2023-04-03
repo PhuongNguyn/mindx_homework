@@ -1,0 +1,22 @@
+.job-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.job-item{
+    padding: 10px;
+    background-color: #fbebe8;
+    min-width: 200px;
+}
+
+.job-item-title{
+    font-weight: bold;
+    margin: 0;
+}
+
+.job-item ul {
+    list-style-type: none;
+    padding: 0;
+}
